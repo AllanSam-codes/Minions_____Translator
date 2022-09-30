@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+ :root {
+    --primary-color: #f5e050;
+    --dark-blue: #115695;
+    --white: #F3F4F6;
+    /*--width-break: 600px;*/
+}
+
+#txt-input {
+    margin: 1rem;
+    width: 80%;
+    height: 10vh;
+    display: block;
+}
+
+#output {
+    margin: 1rem;
+    width: 80%;
+    height: 10vh;
+    display: block;
+}
