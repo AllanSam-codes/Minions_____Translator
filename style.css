@@ -26,22 +26,25 @@ body {
     border: 1px solid black;
     width: 80%;
     height: 10vh;
-    margin: 1rem 3rem;
+    margin: 1rem 4rem;
     padding: 1rem;
 }
 
 .container {
-    width: 800px;
-    height: 20vh;
+    /*display: block;*/
+    /*position: relative;*/
+    width: 80vw;
+    /*width: 800px;*/
+    /*height: 18vh;*/
     margin: 0px auto;
 }
 
 .btn {
     width: 15rem;
     text-align: center;
-    padding: 10px;
-    margin: 20px 450px;
-    height: 10vh;
+    padding: 0.5rem;
+    margin: 20px 7rem 0px 20rem;
+    height: 8vh;
     font-family: 'Gluten', cursive;
     border-color: var(--white);
     background-color: var(--primary-color);
@@ -52,32 +55,33 @@ body {
 .section {
     text-align: center;
     padding: 1rem;
-    width: 500px;
-    margin: 0px 310px;
-    height: 1rem;
+    width: 80%;
+    margin: 0px 7rem 10px 2rem;
+    /*margin: 0px 70px;*/
+    /*height: 1rem;*/
     font-family: 'Gluten', cursive;
     color: var(--dark-blue);
 }
 
 .output {
-    margin: 2rem 2rem;
+    margin: auto;
     width: 80%;
     height: 10vh;
     padding: 1rem;
     border: 1px solid black;
     display: block;
-    margin: auto;
+    margin: 0rem 4rem 2rem 4rem;
 }
 
 .footer {
     background-color: var(--primary-color);
     color: var(--dark-blue);
     font-size: medium;
-    /*padding: 1rem;*/
+    padding: 1rem;
     margin: 0rem;
 }
 
 .footer-txt {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
