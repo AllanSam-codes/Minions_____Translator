@@ -8,6 +8,7 @@
 
 body {
     margin: 0;
+    color: #115697;
 }
 
 .heading {
@@ -47,9 +48,10 @@ body {
     height: 8vh;
     font-family: 'Gluten', cursive;
     border-color: var(--white);
-    background-color: var(--primary-color);
+    background-color: #ffff;
     font-size: large;
-    color: var(--dark-blue);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
 }
 
 .section {
