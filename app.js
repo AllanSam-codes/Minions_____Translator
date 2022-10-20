@@ -11,20 +11,27 @@ function errorHandler(error) {
 
 
 function getTranslatorURL(input) {
+
     return serverURL + "?" + "text=" + input
 }
 
 function clickHandler() {
     //outputDiv.innerText = "sdasfvfqefcev" + txtInput.value
+
     var inputText = txtInput.value
 
-    fetch(getTranslatorURL(inputText))
-        .then(response => response.json())
-        .then(json => {
-            var translatedText = json.contents.translated;
-            outputDiv.innerText = translatedText;
-        })
-        .catch(errorHandler)
+    if (inputText) {
+        fetch(getTranslatorURL(inputText))
+            .then(response => response.json())
+            .then(json => {
+                var translatedText = json.contents.translated;
+                outputDiv.innerText = translatedText;
+            })
+            .catch(errorHandler)
+    } else {
+        alert("Enter the message to be traslated");
+    }
+
 }
 
 btnTranslate.addEventListener("click", clickHandler);
